@@ -4,3 +4,32 @@
 	padding: 0;
 	margin: 0;
 }
+
+body {
+	min-width: 375px;
+	font-family: 'Hanken Grotesk', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	width: 375px;
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	text-align: center;
+	color: white;
+	padding: 100px 0px;
+	border-radius: 0px 0px 30px 30px;
+}
+
+header h1 {
+	font-size: 16px;
+}
+
+.final-score-paragraph {
+	color:  hsl(244, 97%, 74%);
+}
+
+.light-lav-color {
+	color: hsl(241, 100%, 89%);
+}
